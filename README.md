@@ -16,3 +16,9 @@ python idleator.py
 - Windows
 - 'time' module
 - 'pyautogui' module
+
+## Installation
+
+```bash
+pip install pyautogui
+```
