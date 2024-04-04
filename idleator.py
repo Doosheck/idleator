@@ -9,11 +9,9 @@ def main():
     while True:
         # Check if the mouse was moved in the last 240 seconds
         if pyautogui.onScreen(0, 0):
-            # Move the mouse a little bit
             pyautogui.moveRel(1, 1)
             pyautogui.moveRel(-1, -1)
             time.sleep(240)
-            # Print a message to the console
             print('Mouse moved')
         else:
             time.sleep(240)
