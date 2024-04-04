@@ -11,7 +11,7 @@ def main():
         if pyautogui.onScreen(0, 0):
             pyautogui.moveRel(1, 1)
             pyautogui.moveRel(-1, -1)
-            time.sleep(240)
+            time.sleep(1)
             print('Mouse moved')
         else:
             time.sleep(240)
