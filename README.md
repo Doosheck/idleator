@@ -16,9 +16,11 @@ python idleator.py
 - Windows
 - 'time' module
 - 'pyautogui' module
+- 'keyboard' module
 
 ## Installation
 
 ```bash
 pip install pyautogui
+pip install keyboard
 ```sdsd
