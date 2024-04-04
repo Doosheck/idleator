@@ -4,10 +4,16 @@ This is useful for when you are watching a video or reading a long article and y
 
 import time
 import pyautogui
+import keyboard
 
 def main():
     count = 0
     while True:
+        # Check if the escape key is pressed
+        if keyboard.is_pressed('esc'):
+            print("Execution stopped by user.")
+            break
+        
         # Check if the mouse was moved in the last 240 seconds
         if pyautogui.onScreen(0, 0):
             # Move the mouse in a circle
