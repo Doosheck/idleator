@@ -21,4 +21,4 @@ python idleator.py
 
 ```bash
 pip install pyautogui
-```
+```sdsd
