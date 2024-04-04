@@ -13,6 +13,8 @@ def main():
             pyautogui.moveRel(1, 1)
             pyautogui.moveRel(-1, -1)
             time.sleep(240)
+            # Print a message to the console
+            print('Mouse moved')
         else:
             time.sleep(240)
 
