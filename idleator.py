@@ -13,6 +13,8 @@ def main():
             pyautogui.moveRel(1, 1)
             pyautogui.moveRel(-1, -1)
             time.sleep(240)
+        else:
+            time.sleep(240)
 
 
 if __name__ == '__main__':
